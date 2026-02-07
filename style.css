@@ -1,15 +1,43 @@
 body {
     font-family: Garamond, serif;
     margin: 0;
-    line-height: 0.9;
+    line-height: 1.1;
     padding: 30px;
     background-color: #f5f5f5;
-    
 }
+
+/* Element*/
+h1 {
+    text-align: left;
+    color: white;
+}
+
+/*class*/
+.left-align {
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+}
+
+/*id*/
+#name {
+    color:rgb(33, 33, 99);
+}
+
+/*
+The specificity of the CSS selectors are the following:
+Element selector: 0,0,0,1
+Class selector: 0,0,1,0
+ID selector: 0,1,0,0
+
+From that we know that id has the highest specificity therefore it overide both the element
+and class selector (.left-align h1 -> 0,0,1,1). As a result the color of the text is dark blue
+instead of black or white.
+*/
 
 hr {
     border: none;
-    border-top: 1px solid #000000;
+    border-top: 1px solid black;
     margin: 20px 0;
 }
 
@@ -24,10 +52,6 @@ hr {
     vertical-align: middle;
 }
 
-.left-align {
-    text-align: left;
-    vertical-align: middle;
-}
 .category {
     font-size: 20px;
 }
@@ -53,10 +77,6 @@ title {
 
 .description {
     font-size:10.5px;
-}
-
-h1 {
-    text-align: left;
 }
 
 img {
