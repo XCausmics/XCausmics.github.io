@@ -1,1 +1,65 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    line-height: 0.9;
+    padding: 30px;
+    background-color: #f5f5f5;
+    
+}
 
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+
+.information {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.photo  {
+    text-align:right;
+    vertical-align: middle;
+}
+
+.left-align {
+    text-align: left;
+    vertical-align: middle;
+}
+.category {
+    font-size: 20px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.occupation {
+    font-size: 15px;
+}
+
+.header.location {
+    font-size: 10.5px;
+}
+
+title {
+    align-items: center;
+    font-size: 16px;
+}
+
+.description {
+    font-size:10.5px;
+}
+
+h1 {
+    text-align: left;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}

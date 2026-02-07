@@ -1,10 +1,178 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title> Johnny's Resume</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
+
     <body>
-        <p>Name: Johnny Huang</p>
+        <table class="information">
+            <tr>
+                <td class="left-align">
+                    <h1>Name: Johnny Huang</h1>
+                    <h2>Phone: (123) 456-7890</h2>
+                    <h2>Email: temp@mail.com</h2>
+                    <h2><a href="https://www.linkedin.com/in/johnny-huang-43a198197/" target="_blank">Linkedin </a></h2>
+                </td>
+                <td class = "photo">
+                    <img src="asset/myself.jpg"alt= "Photo of me"/>
+                </td>
+            </tr>
+        </table>
+
+        <!--EDUCATION -->
+        <hr>
+        <p class="category"><strong>EDUCATION</strong></p>	
+
+        <p class="header">
+            <span class="occupation"> <strong>HUNTER COLLEGE </strong></span>	
+            <span class="location">New York, NY</span>
+        </p>       
+        <p>Bachelor of Computer Science	Expected May 2027</p>
+        <p>Major in Computer Science</p>
+        <p>Current: GPA: 3.5/4.0;</p>
+        <p>Relevant Coursework: C++, Python, Software Design, Data Structure, Discrete Math, Algorithms;</p>
+
+        <p class="header">
+            <span class="occupation"> <strong>ABRAHAM LINCOLN HIGH SCHOOL </strong></span>	
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>GPA: 3.86/4.0;</span>	
+            <span>2019-2023</span>
+        </p>
+
+        <!--WORK -->
+        <hr>
+        <p class="category"><strong>WORK EXPERIENCE</strong></p>
+
+        <p class="header">
+            <span class="occupation"> <strong>NYC Department of Transportation </strong></span>	
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Intern 	</span>
+            <span>Sep 2025 – Dec 2025</span>
+
+        </p>
+        <ul>
+            <li>Developed Streetlight Reporter, a full-stack web application that enables NYC residents to report malfunctioning streetlights, featuring secure authentication, email verification, and automated administrative reporting.</li>
+            <li>Built a responsive, mobile first frontend with HTML, CSS, Bootstrap, and JavaScript, integrating a map, GPS, real time camera capture, and used the NYC Open Dataset to create an intuitive reporting experience.</li>
+            <li>Designed and implemented a gamification system (points, leveling, badges, leaderboards) to increase user engagement</li>
+        </ul>
+        
+        <p class="header">
+            <span class="occupation"> <strong>Vividphoto Ltd. </strong></span>	
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Photographer	</span>
+            <span>Nov 2022 – Present</span>
+
+        </p>
+        <ul>
+            <li>Conduct studio photography sessions, guiding clients through optimal poses and background to best suit their needs</li>
+            <li>Edited and enhanced large volumes of photos mainly using Adobe Photoshop, including restoration of old photographs and removal of unwanted elements.</li>
+            <li>Print and prepare professional quality photos and canvases for customers</li>
+        </ul>
+
+        <p class="header">
+            <span class="occupation"> <strong>Happy House Daycare </strong></span>	
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Voluntary Employee	</span>
+            <span>July 2021 – August 2021</span>
+
+        </p>
+        <ul>
+            <li>Provided care and support for the elderly and children, assisting them in activities and fostering a supportive environment</li>
+            <li>Helped the children with educational tasks, teaching them basic concepts and assisting them in homework.</li>
+        </ul>
+
+        <!--ACITIVITIES -->
+        <hr>
+        <p class="category"><strong>ACTIVITIES</strong></p>	
+
+        <p class="header">
+            <span class="occupation"> <strong>GOOGLE SWEP</strong></span>
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Mentee</span>		
+            <span>Oct 2025 – Present</span>
+        </p>
+        <ul>
+            <li>Selected for a competitive 10-week mentorship with a Google Software Engineer, focused on technical mentoring, through weekly problem solving to prepare for technical interviews</li>
+        </ul>
+
+        <p class="header">
+            <span class="occupation"> <strong>NATIONAL HONOR SOCIETY</strong></span>
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Committee Member</span>	
+            <span>Sep 2020 – Present</span>
+            </p>
+        <ul>
+            <li>Selected based on academic excellence, service, leadership and service</li>
+        </ul>
+
+         <p class="header">
+            <span class="occupation"> <strong>HUNTER Computer Science Club</strong></span>
+            <span class="location">New York, NY</span>
+        </p>
+        <p class="header">
+            <span>Committee Member</span>	
+            <span>Jan 2024 – Present</span>
+        </p>
+        <ul>
+            <li>Collaborate with other members to organize events, workshops and technical sessions</li>
+        </ul>    
+
+        <!--EXTRA -->
+        <hr>
+        <h3><strong>ADDITIONAL</strong></h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Technical Skills</th>
+                    <th>Languages</th>
+                    <th>Achievements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Video Editing</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Mandarin Chinese</li>
+                            <li>Cantonese</li>
+                            <li>English</li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <ul>
+                            <li>Won 2023 Hackathon competition </br>out of 40+ participants</li>
+                            <li>Top 5 in 2025 MHC++ x MTA Datathon</br> out of 300+ people</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 
 
