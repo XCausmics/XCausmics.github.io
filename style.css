@@ -100,11 +100,11 @@ hr {
     align-items: center;
 }
 
-.header.occupation {
+.occupation {
     font-size: 15px;
 }
 
-.header.location {
+.location {
     font-size: 10.5px;
 }
 
@@ -144,4 +144,19 @@ title {
 .card img {
     width: 100%;
     height: auto;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+    flex-direction:column;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+body{
+    font-size:14px;
+}
 }
