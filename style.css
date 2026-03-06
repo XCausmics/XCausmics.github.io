@@ -1,9 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    padding: 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-size: 20px;
+    display:flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nav-links a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
 body {
     font-family: Garamond, serif;
     margin: 0;
     line-height: 1.1;
-    padding: 30px;
     background-color: #f5f5f5;
+}
+
+#resume {
+    padding: 20px;
 }
 
 /* Element*/
@@ -79,7 +117,47 @@ title {
     font-size:10.5px;
 }
 
-img {
+#resume img {
     width: 150px;
     height: 200px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+#projects h1 {
+    color: black;
+}
+
+.card {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+    flex-direction:column;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+body{
+    font-size:14px;
+}
+
 }
